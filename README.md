@@ -15,3 +15,9 @@
 * Los microservicios estan asegurados, mediante un api-key, que debe ser enviado por la cabecera de la petición, de igual manera se tiene control de los dominios permitidos y metodos http, permitidos en la aplicación.
 * Se implemente el manejo de Cache por tiempo, para dar mejor perfomance en las consultas, el ejemplo lo pueden ver el controlado "EditorialControler", servicio "GetAllEditorial".
 * Tiene Swagger implementado para revisar los serivicios implementados.
+* Tiene una arquitectura de patron de diseño por capas, usando la metodología UnitOfWork, la cual esta distribiuda de la siguinte manera:
+  * Capa Rest.
+  * Capa de Modelo o contexto de base de datos.
+  * Capa de Repositorios.
+  * Capa DTO.
+  * Capa de Servicios. 
