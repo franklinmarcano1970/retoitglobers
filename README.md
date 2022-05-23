@@ -1,7 +1,7 @@
 # Reto itglobers
 
 ## Paso para instalar:
-* Pasos1
+* Pasos
     * Restaurar backup de base de datos: vtex_test.bak.
     * Modificar el archivo "appsettings.json", la cadena de conexión.
         *  "ConnectionStrings": {
